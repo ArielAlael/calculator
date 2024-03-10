@@ -9,6 +9,8 @@ export default function setNotification(text) {
       }
     });
   } else {
-    alert('Este navegador não suporta notificações.');
+    alert(
+      'Desculpe, o seu navegador não suporta notificações ou elas foram bloqueadas.',
+    );
   }
 }
