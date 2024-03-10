@@ -1,12 +1,11 @@
-import { calculate, clear, display } from './calculate.js';
+import { calculate, clear, display, regexExpressions } from './calculate.js';
 
 export default function actionsKeyboard() {
   function setNumbersInDisplay(event) {
-    const keyRegex = /[0-9\+\.\-\*\/]/;
     if (
       !event.ctrlKey &&
       !event.key.startsWith('F') &&
-      keyRegex.test(event.key)
+      regexExpressions.test(event.key)
     ) {
       display.value += event.key;
     } else {

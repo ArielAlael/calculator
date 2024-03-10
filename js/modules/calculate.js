@@ -1,13 +1,13 @@
 import copyToClipboard from './copyToClipboard.js';
 
 export const display = document.getElementById('display');
+export const regexExpressions = /^[0-9+\-*/().\s]+$/;
 
 export const clear = () => (display.value = '');
 
 export function calculate() {
-  const isMathExpression = (value) => /^[0-9+\-*/().\s]+$/.test(value);
   try {
-    if (display.value && isMathExpression(display.value)) {
+    if (display.value && regexExpressions.test(display.value)) {
       const calc = eval(display.value);
       display.value = calc;
       copyToClipboard(calc);
