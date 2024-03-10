@@ -1,5 +1,7 @@
 # Calculadora Simples
 
+<img src="./docs/img.png" alt="Visualização do projeto"/>
+
 Esta é uma aplicação de calculadora simples desenvolvida em HTML, CSS e JavaScript. A calculadora permite a realização de operações matemáticas básicas, como adição, subtração, multiplicação e divisão, tanto por meio de cliques nos botões quanto pelo teclado.
 
 ## Funcionalidades
