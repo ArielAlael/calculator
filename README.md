@@ -3,9 +3,6 @@
 ## Demonstração
 <img src="./docs/img.png" alt="Visualização do projeto"/>
 
-Você pode visualizar uma demonstração da calculadora [aqui](arielalael.github.io/calculator/).
-
-
 Esta é uma aplicação de calculadora simples desenvolvida em HTML, CSS e JavaScript. A calculadora permite a realização de operações matemáticas básicas, como adição, subtração, multiplicação e divisão, tanto por meio de cliques nos botões quanto pelo teclado.
 
 ## Funcionalidades
